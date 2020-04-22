@@ -1,5 +1,5 @@
-
-let valor;
+// VALORES DE DATOS
+	let valor;
 	
 	valor = 'Cristian';
 	valor = 20;
@@ -13,7 +13,7 @@ let valor;
 
 	console.log(typeof(valor));
 
-	// OPERADORES DE COMPARACION
+// OPERADORES DE COMPARACION
 
 	const numero1 = 20;
 	const numero2 = 40;
@@ -28,3 +28,18 @@ let valor;
 	console.log(numero1 === numero3);//EN ESTE CASO EL RESULTADO ES FALSE, YA QUE SOLO COMPARA EN VALOR DEL DATO Y EL TIPO DE DATO
 	// COMPARA SI numero1 ES DIFERENTE A numero2
 	console.log(numero1 != numero2);
+
+// CONVERTIR DE STRING A NUMEROS
+
+	const numeroA = '50';
+	const numeroB = 10;
+	const numeroC = 'tres';
+	//Number convertir un String a Numero
+	console.log(Number(numeroA) + numeroB); 
+
+	//parseInt convertir un String a Numero
+	console.log(parseInt(numeroA) + numeroB); 
+
+	//Verifica el tipo de dato
+	console.log(typeof(numeroC));
+
