@@ -43,3 +43,15 @@
 	//Verifica el tipo de dato
 	console.log(typeof(numeroC));
 
+// CONVERTIR NUMEROS A CADENAS
+
+let dato;
+	dato = 123456;
+	dato = String(dato);
+let dato1;
+	dato1 = 123112132;
+	dato1 = dato1.toString();
+
+
+console.log(dato1.length);
+console.log(dato1);
