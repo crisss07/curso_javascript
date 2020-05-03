@@ -1,9 +1,9 @@
-// Variables
+// Variables que se utilizaran
 const listaTweets = document.getElementById('lista-tweets');
 
 
 
-// Event Listeners
+// Aqui los Event Listeners 
 
 eventListeners();
 
@@ -20,7 +20,7 @@ function eventListeners() {
 
 
 
-// Funciones
+// Aqui las Funciones
 
 
 // Añadir tweet del formulario

@@ -1,11 +1,11 @@
-// Variables
+// Aqui las Variables
 const carrito = document.getElementById('carrito');
 const cursos = document.getElementById('lista-cursos');
 const listaCursos = document.querySelector('#lista-carrito tbody');
 const vaciarCarritoBtn = document.getElementById('vaciar-carrito'); 
 
 
-// Listeners
+//Aqui las Event Listeners
 cargarEventListeners();
 
 function cargarEventListeners() {
@@ -26,7 +26,7 @@ function cargarEventListeners() {
 
 
 
-// Funciones
+// Aqui las Funciones
 // Función que añade el curso al carrito
 function comprarCurso(e) {
      e.preventDefault();
