@@ -1,13 +1,19 @@
 // ARREGLOS EN JAVASCRIPT (VIDEO 22)
 	
-	const numeros = [10,20,30,40,50,60];
-	console.log(numeros);
+	// const numeros = [10,20,30,40,50,60];
+	// console.log(numeros);
 
 	// ARREGLOS DE STRINGS
-	const meses = new Array('Enero','Febrero','Marzo');
+	const meses = new Array('Enero','Abril','Mayo');
 	console.log(meses);
 
-	//ARREGLOS MEZCALDOS
+	meses.splice(1,0,'Febrero', 'Noviembre');
+	console.log(meses);
+
+	meses.splice(2,1,'Marzo');
+	console.log(meses);
+	
+	// ARREGLOS MEZCALDOS
 	const mezclado = ['Hola', 20, true, null, false, undefined];
 	console.log(mezclado);
 
